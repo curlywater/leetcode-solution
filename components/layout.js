@@ -15,40 +15,11 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content={siteDescription} />
       </Head>
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <img
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              src="/images/dog2.jpeg"
-              alt={author}
-            />
-            <h1 className={`${utilStyles.heading2Xl}`}>{author}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <img
-                  src="/images/dog2.jpeg"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                  alt={author}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{author}</a>
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← Back to List</a>
           </Link>
         </div>
       )}
