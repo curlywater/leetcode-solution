@@ -6,12 +6,7 @@ module.exports = {
     { value: "WIP", name: "WIP:      Work in progress" },
   ],
 
-  scopes: [
-    { name: "accounts" },
-    { name: "admin" },
-    { name: "exampleScope" },
-    { name: "changeMe" },
-  ],
+  scopes: [{ name: "每日一题" }, { name: "数组" }, { name: "二叉树" }],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,
