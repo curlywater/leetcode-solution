@@ -1,7 +1,7 @@
 ---
 title: 514. 自由之路
 date: "2020-11-11"
-topic: [每日一题, 数组]
+topic: 动态规划
 ---
 
 # 问题描述
@@ -40,65 +40,11 @@ topic: [每日一题, 数组]
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/freedom-trail
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 
 # 解题思路
 
-## 我的首次解法
+## 动态规划
 
 接近dp的思路，当前节点的选择和前面一节点相关。
 
-``` js
-/**
- * @param {string} ring
- * @param {string} key
- * @return {number}
- */
-var findRotateSteps = function(ring, key) {
-    const char2Index = new Map();
-    Array.from(ring).forEach((ch, index) => {
-        if  (char2Index.has(ch)) {
-            char2Index.get(ch).push(index);
-        } else {
-            char2Index.set(ch, [index]);
-        }
-    })
-
-    function dp (options, ch) {
-        return char2Index.get(ch).map((chIndex) => {
-            const steps = Math.min(...options.map(({steps, index}) => {
-                if (chIndex === index) {
-                    return steps;
-                }
-                let max,  min;
-                if (chIndex > index) {
-                    max = chIndex;
-                    min =  index;
-                } else {
-                    max = index;
-                    min = chIndex;
-                }
-
-                return steps + Math.min(max - min, ring.length - max + min);
-            }));
-
-
-            return {
-                steps,
-                index: chIndex
-            }
-        });
-    }
-
-    let options = [{
-        steps: 0,
-        index: 0
-    }];
-    Array.from(key).forEach(ch => {
-        options = dp(options, ch);
-    })
-
-    return Math.min(...options.map(option => option.steps)) + key.length;
-};
-```

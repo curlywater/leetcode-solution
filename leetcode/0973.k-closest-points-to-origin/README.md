@@ -1,7 +1,7 @@
 ---
 title: 973.最接近原点的-k-个点
 date: "2020-11-09"
-topic: [每日一题, 数组, 排序, 堆]
+topic: 排序
 ---
 
 # 问题描述
@@ -32,12 +32,12 @@ topic: [每日一题, 数组, 排序, 堆]
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/k-closest-points-to-origin
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 
-# 思路一
+# 解题思路
 
-直观解法。
+## 记录法
+
 - 遍历数组，将距离和原坐标存储到另一数组B中。
 - 对数组B从小到大排序
 - 取前K个元素遍历返回原坐标
@@ -45,22 +45,8 @@ topic: [每日一题, 数组, 排序, 堆]
 时间复杂度：$O(NlogN)$
 空间复杂度：$O(N)$
 
-``` js
-/**
- * @param {number[][]} points
- * @param {number} K
- * @return {number[][]}
- */
-var kClosest = function(points, K) {
-    const distances= points.map(([x, y], index) => ({
-        value: x * x + y * y,
-        index
-    })).sort((a, b) => a.value - b.value);
-    return distances.slice(0, K).map(({index}) => points[index]);
-};
-```
 
-# 思路二
+# 基于快排
 
 基于快排求解，求前K个元素，只需从大到小排到前K个元素。利用快排的分治思想。
 
