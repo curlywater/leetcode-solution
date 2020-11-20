@@ -92,8 +92,3 @@ var kClosest = function (points, K) {
   return points.slice(0, K);
 };
 ```
-
-
-# 扩展
-
-类似题目：215. 数组中的第K个最大元素
