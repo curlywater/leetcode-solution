@@ -50,6 +50,20 @@ topic: 数组
 
 [344. 反转字符串](/leetcode/0344.reverse-string/)
 
+## 双指针 —— 滑动窗口
+
+寻找满足条件的子串。
+
+滑动窗口的思路：左右指针设定当前窗口范围。右指针负责向后扩展直到满足条件的范围，满足条件后，左指针复杂缩小范围。
+
+[209. 长度最小的子数组](/leetcode/0209.minimum-size-subarray-sum)
+
+[3. 无重复字符的最长子串](/leetcode/0003.longest-substring-without-repeating-characters)
+
+[76. 最小覆盖子串](/leetcode/0076.minimum-window-substring)
+
+[567. 字符串的排列](/leetcode/0567.permutation-in-string)
+
 
 ## Boyer-Moore 摩尔投票算法
 
@@ -65,13 +79,20 @@ topic: 数组
 
 应用快速排序思想
 
-[75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
+[75. 颜色分类](/leetcode/0075.sort-colors/)
 
-[215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+[215. 数组中的第K个最大元素](/leetcode/0215.kth-largest-element-in-an-array/)
 
-[973. 最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/)
+[973. 最接近原点的 K 个点](/leetcode/0973.k-closest-points-to-origin)
 
 
-## 滑动窗口
 
-[209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+## O(1)复杂度增删查
+
+O(1)复杂度的删除：可以使用和末尾元素置换再pop的方式实现
+
+O(1)复杂度的查找：可以搭配哈希表实现
+
+[380. 常数时间插入、删除和获取随机元素](/leetcode/0380.insert-delete-getrandom-o1)
+
+[381. O(1) 时间插入、删除和获取随机元素 - 允许重复](/leetcode/381.insert-delete-getrandom-o1-duplicates-allowed)
