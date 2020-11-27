@@ -4,15 +4,13 @@ topic: 数组
 ---
 
 
-# 数据结构
-
-## 特性
+# 特性
 
 数组的优势在于：支持随机访问，根据下标随机访问的时间复杂度为 $O(1)$
 
 数组的限制在于：需要连续的存储空间，导致容量受限需要做扩容处理，增删操作的平均时间复杂度是 $O(n)$
 
-## 基本操作
+# 基本操作
 
 [867. 转置矩阵](/leetcode/0867.transpose-matrix/)
 
@@ -34,13 +32,18 @@ topic: 数组
 
 [80. 删除排序数组中的重复项 II](/leetcode/0080.remove-duplicates-from-sorted-array-ii)
 
+
 ## 双指针 —— 对撞指针
 
 双指针从两端向中间进发
 
 [167. 两数之和 II - 输入有序数组](/leetcode/0167.two-sum-ii-input-array-is-sorted)
 
+[633. 平方数之和](/leetcode/0633.sum-of-square-numbers/)
+
 [125. 验证回文串](/leetcode/0125.valid-palindrome/)
+
+[680. 验证回文字符串 Ⅱ](/leetcode/0680.valid-palindrome-ii/)
 
 [345. 反转字符串中的元音字母](/leetcode/0345.reverse-vowels-of-a-string/solution/)
 
@@ -63,6 +66,8 @@ topic: 数组
 [76. 最小覆盖子串](/leetcode/0076.minimum-window-substring)
 
 [567. 字符串的排列](/leetcode/0567.permutation-in-string)
+
+[340.最长最多K个无重复字符的字符串长度](/leetcode/0340.longest-substring-with-at-most-k-distinct-characters/)
 
 
 ## Boyer-Moore 摩尔投票算法
