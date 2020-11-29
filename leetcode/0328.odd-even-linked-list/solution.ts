@@ -12,18 +12,19 @@
 
 function oddEvenList(head: ListNode | null): ListNode | null {
 	if (head === null) return head;
-	const oddHead: ListNode | null = head.next;
-	let even: ListNode = head;
-	let odd: ListNode | null = oddHead;
 
-	while (odd && odd.next) {
+	const evenHead: ListNode | null = head.next;
+	let odd: ListNode = head;
+	let even: ListNode | null = evenHead;
+
+	while (even && even.next) {
+		odd.next = even.next;
+		odd = even.next;
 		even.next = odd.next;
 		even = even.next;
-		odd.next = even.next;
-		odd = odd.next;
 	}
 
-	even.next = oddHead;
+	odd.next = evenHead;
 
 	return head;
 }

@@ -1,5 +1,5 @@
 ---
-title: 数组数据结构
+title: 数组
 topic: 数组
 ---
 
