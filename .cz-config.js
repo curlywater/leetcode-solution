@@ -9,6 +9,7 @@ module.exports = {
 	scopes: [
 		{ name: "每日一题" },
 		{ name: "数组" },
+		{ name: "链表" },
 		{ name: "二叉树" },
 		{ name: "贪心算法" },
 	],
