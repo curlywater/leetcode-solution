@@ -22,7 +22,7 @@
 			"---",
 			"title: ${1}",
 			"date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
-			"topic: ${3|数组,链表,贪心算法,二分查找|}",
+			"topic: ${3|数组,链表,贪心算法,二分查找,排序|}",
 			"---",
 			"# 题目描述",
 			"$0",

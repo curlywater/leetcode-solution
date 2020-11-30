@@ -13,6 +13,7 @@ module.exports = {
 		{ name: "二叉树" },
 		{ name: "贪心算法" },
 		{ name: "二分查找" },
+		{ name: "排序" },
 	],
 
 	allowTicketNumber: false,
