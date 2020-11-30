@@ -38,18 +38,6 @@ topic: 链表
 [328. 奇偶链表](/leetcode/0328.odd-even-linked-list/)
 
 
-# 算法
+# 快慢指针
 
-## 快慢指针
-
-[141. 环形链表](/leetcode/0141.linked-list-cycle/)
-
-[142. 环形链表 II](/leetcode/0142.linked-list-cycle-ii/)
-
-[160. 相交链表](/leetcode/0160.intersection-of-two-linked-lists/)
-
-[876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
-
-[234. 回文链表](/leetcode/0234.palindrome-linked-list/)
-
-[19. 删除链表的倒数第N个节点](/leetcode/0019.remove-nth-node-from-end-of-list/)
+[双指针在链表中的应用](/posts/two-points/#链表应用)

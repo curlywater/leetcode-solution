@@ -9,7 +9,6 @@ topic: 贪心算法
 
 关键点在于分析题目确定贪心策略。
 
-
 # 分配问题
 
 [455. 分发饼干](/leetcode/0455.assign-cookies)
@@ -23,7 +22,7 @@ topic: 贪心算法
 [452. 用最少数量的箭引爆气球](/leetcode/0452.minimum-number-of-arrows-to-burst-balloons/)
 
 
-# 其他
+# 练习
 
 [605. 种花问题](/leetcode/0605.can-place-flowers/)
 

@@ -16,61 +16,11 @@ topic: 数组
 
 [118. 杨辉三角](/leetcode/0118.pascals-triangle/)
 
+# 双指针
 
-# 算法
-## 双指针 —— 原地筛选
+[双指针在数组中的应用](/posts/two-points/#数组应用)
 
-简单描述：一次遍历，前置符合条件的元素，直接截去残余部分
-
-两个指针，一个用于遍历，一个用于已符合添加的元素。
-
-[283. 移动零](/leetcode/0283.move-zeroes/)
-
-[27. 移除元素](/leetcode/0027.remove-element/)
-
-[26. 删除排序数组中的重复项](/leetcode/0026.remove-duplicates-from-sorted-array)
-
-[80. 删除排序数组中的重复项 II](/leetcode/0080.remove-duplicates-from-sorted-array-ii)
-
-
-## 双指针 —— 对撞指针
-
-双指针从两端向中间进发
-
-[167. 两数之和 II - 输入有序数组](/leetcode/0167.two-sum-ii-input-array-is-sorted)
-
-[633. 平方数之和](/leetcode/0633.sum-of-square-numbers/)
-
-[125. 验证回文串](/leetcode/0125.valid-palindrome/)
-
-[680. 验证回文字符串 Ⅱ](/leetcode/0680.valid-palindrome-ii/)
-
-[345. 反转字符串中的元音字母](/leetcode/0345.reverse-vowels-of-a-string/solution/)
-
-[11. 盛最多水的容器](/leetcode/0011.container-with-most-water/)
-
-[977. 有序数组的平方](/leetcode/0977.squares-of-a-sorted-array/)
-
-[344. 反转字符串](/leetcode/0344.reverse-string/)
-
-## 双指针 —— 滑动窗口
-
-寻找满足条件的子串。
-
-滑动窗口的思路：左右指针设定当前窗口范围。右指针负责向后扩展直到满足条件的范围，满足条件后，左指针复杂缩小范围。
-
-[209. 长度最小的子数组](/leetcode/0209.minimum-size-subarray-sum)
-
-[3. 无重复字符的最长子串](/leetcode/0003.longest-substring-without-repeating-characters)
-
-[76. 最小覆盖子串](/leetcode/0076.minimum-window-substring)
-
-[567. 字符串的排列](/leetcode/0567.permutation-in-string)
-
-[340.最长最多K个无重复字符的字符串长度](/leetcode/0340.longest-substring-with-at-most-k-distinct-characters/)
-
-
-## Boyer-Moore 摩尔投票算法
+# Boyer-Moore 摩尔投票算法
 
 一对一对垒，要成为众数必须抵消掉其他数。
 
@@ -80,7 +30,7 @@ topic: 数组
 
 
 
-## 应用快排思想
+# 应用快排思想
 
 应用快速排序思想
 
@@ -92,7 +42,7 @@ topic: 数组
 
 
 
-## O(1)复杂度增删查
+# O(1)复杂度增删查
 
 O(1)复杂度的删除：可以使用和末尾元素置换再pop的方式实现
 
