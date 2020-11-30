@@ -18,6 +18,7 @@ tag: 摩尔投票法
 ```
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/majority-element
 
 # 解题思路

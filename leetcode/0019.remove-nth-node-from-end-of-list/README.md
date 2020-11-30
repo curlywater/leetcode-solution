@@ -23,6 +23,7 @@ tag: 快慢指针
 你能尝试使用一趟扫描实现吗？
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list
 
 # 解题思路

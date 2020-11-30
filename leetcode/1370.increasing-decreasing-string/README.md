@@ -36,6 +36,7 @@ topic: 字符串
 
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/increasing-decreasing-string
 
 # 解题思路

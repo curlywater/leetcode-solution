@@ -10,6 +10,7 @@ topic: 数组
 - getRandom：随机返回现有集合中的一项。每个元素应该有相同的概率被返回。
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/insert-delete-getrandom-o1
 
 

@@ -38,6 +38,7 @@ linkedList.get(1);            //返回3
 
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/design-linked-list
 
 # 解题思路

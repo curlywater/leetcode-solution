@@ -30,6 +30,7 @@ topic: 链表
 链表的第一个节点视为奇数节点，第二个节点视为偶数节点，以此类推。
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/odd-even-linked-list
 
 

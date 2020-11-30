@@ -19,6 +19,7 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, 以及 ans.next.next.next 
 ```
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/middle-of-the-linked-list
 
 # 解题思路

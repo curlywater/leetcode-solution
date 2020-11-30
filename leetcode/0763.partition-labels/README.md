@@ -21,6 +21,7 @@ topic: 贪心算法
 - S只包含小写字母 'a' 到 'z' 。
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/partition-labels
 
 # 解题思路

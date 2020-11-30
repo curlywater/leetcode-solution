@@ -13,6 +13,7 @@ topic: 数组
 - getRandom：从现有集合中随机获取一个元素。每个元素被返回的概率应该与其在集合中的数量呈线性相关。
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed
 
 # 解题思路

@@ -39,6 +39,7 @@ topic: 动态规划
 3. 字符串 key 一定可以由字符串 ring 旋转拼出。
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/freedom-trail
 
 
