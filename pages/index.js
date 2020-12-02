@@ -1,8 +1,8 @@
-import ArticleList from "../components/articleList";
-import { categories } from "../components/layout";
-import { getPostList as getAllProblems } from "../lib/leetcode";
-import { getPostList as getAllPosts } from "../lib/post";
-import { sortByDateDesc } from "../lib/sort";
+import ArticleList from "~/components/articleList";
+import { categories } from "~/components/layout";
+import { getPostList as getAllProblems } from "~/lib/leetcode";
+import { getPostList as getAllPosts } from "~/lib/post";
+import { sortByDateDesc } from "~/lib/sort";
 
 export default function Home({ allPostsData }) {
 	return (

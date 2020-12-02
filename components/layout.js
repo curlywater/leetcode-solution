@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "~/styles/utils.module.css";
 
 const siteDescription = "Learn how to build a personal website using Next.js";
 export const siteTitle = "LeetCode";

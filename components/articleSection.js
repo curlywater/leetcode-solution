@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "~/styles/utils.module.css";
 import styles from "./articleSection.module.css";
 
 export default function ArticleSection({ sectionData, isAbleFold = false }) {

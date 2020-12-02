@@ -1,6 +1,6 @@
-import ArticleList from "../../components/articleList";
-import { categories } from "../../components/layout";
-import { getSortedPostList } from "../../lib/leetcode";
+import ArticleList from "~/components/articleList";
+import { categories } from "~/components/layout";
+import { getSortedPostList } from "~/lib/leetcode";
 
 export default function LeetcodeIndex({ allPostsData }) {
 	return (

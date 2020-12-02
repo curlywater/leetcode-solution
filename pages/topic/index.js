@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../../components/layout";
-import utilStyles from "../../styles/utils.module.css";
-import { getAllTopics } from "../../lib/topic";
-import { categories } from "../../components/layout";
-import ArticleSection from "../../components/articleSection";
+import Layout, { siteTitle } from "~/components/layout";
+import utilStyles from "~/styles/utils.module.css";
+import { getAllTopics } from "~/lib/topic";
+import { categories } from "~/components/layout";
+import ArticleSection from "~/components/articleSection";
 
 export default function TopicIndex({ allTopics }) {
 	const title = categories["topic"][0];

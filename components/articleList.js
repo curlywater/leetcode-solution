@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Date from "./date";
 import Layout, { siteTitle } from "./layout";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "~/styles/utils.module.css";
 
 export default function ArticleList({ title, allPostsData }) {
 	return (

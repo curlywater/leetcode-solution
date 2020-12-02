@@ -1,5 +1,5 @@
-import { getAllPostIds, getPostData } from "../../lib/leetcode";
-import Article from "../../components/article";
+import { getAllPostIds, getPostData } from "~/lib/leetcode";
+import Article from "~/components/article";
 
 export default function LeetCodeProblem({ postData }) {
 	return <Article postData={postData} />;

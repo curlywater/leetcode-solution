@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "./layout";
 import Date from "./date";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "~/styles/utils.module.css";
 
 export default function Article({ postData }) {
 	return (
