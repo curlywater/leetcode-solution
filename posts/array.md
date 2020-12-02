@@ -1,6 +1,7 @@
 ---
 title: 数组
 topic: 数组
+date: "2020-11-20"
 ---
 
 
@@ -50,4 +51,4 @@ O(1)复杂度的查找：可以搭配哈希表实现
 
 [380. 常数时间插入、删除和获取随机元素](/leetcode/0380.insert-delete-getrandom-o1)
 
-[381. O(1) 时间插入、删除和获取随机元素 - 允许重复](/leetcode/381.insert-delete-getrandom-o1-duplicates-allowed)
+[381. O(1) 时间插入、删除和获取随机元素 - 允许重复](/leetcode/0381.insert-delete-getrandom-o1-duplicates-allowed)

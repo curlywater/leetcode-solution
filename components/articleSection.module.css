@@ -1,0 +1,33 @@
+.sectionHeader {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.headerText {
+	flex-grow: 1;
+}
+
+.foldTrigger {
+	transition: 0.3s transform ease-in-out;
+}
+
+.unfoldStatus .foldTrigger {
+	transform: rotate(0);
+}
+
+.foldStatus .foldTrigger {
+	transform: rotate(-180deg);
+}
+
+.foldContent {
+	overflow: hidden;
+}
+
+.unfoldStatus .foldContent {
+	height: auto;
+}
+
+.foldStatus .foldContent {
+	height: 0;
+}
