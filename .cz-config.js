@@ -14,6 +14,9 @@ module.exports = {
 		{ name: "贪心算法" },
 		{ name: "二分查找" },
 		{ name: "排序" },
+		{ name: "DFS" },
+		{ name: "BFS" },
+		{ name: "回溯算法" },
 	],
 
 	allowTicketNumber: false,
