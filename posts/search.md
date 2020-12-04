@@ -32,7 +32,8 @@ DFS中递归函数的模式：[计算当前节点状态] -> [递归子节点]。
 
 [46. 全排列](/leetcode/0046.permutations/)
 
-[77. 组合](/leetcode/0077.combinations/)
+[77. 组合](/leetcode/0077.combin
+ations/)
 
 [79. 单词搜索](/leetcode/0079.word-search/)
 
@@ -44,3 +45,6 @@ DFS中递归函数的模式：[计算当前节点状态] -> [递归子节点]。
 
 由于广度优先搜索按层遍历，因此需要一个队列（先进先出）来存放一层中的节点。
 
+[934. 最短的桥](/leetcode/0934.shortest-bridge/)
+
+[126. 单词接龙 II](/leetcode/0126.word-ladder-ii/)
