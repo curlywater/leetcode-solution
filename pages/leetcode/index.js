@@ -5,7 +5,7 @@ import { getSortedPostList } from "~/lib/leetcode";
 export default function LeetcodeIndex({ allPostsData }) {
 	return (
 		<ArticleList
-			title={categories?.leetcode?.[0] || Articles}
+			title={categories?.leetcode?.[0] || "Articles"}
 			allPostsData={allPostsData}
 		/>
 	);

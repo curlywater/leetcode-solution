@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Date from "./date";
+import Tag from "./tag";
 import Layout, { siteTitle } from "./layout";
 import utilStyles from "~/styles/utils.module.css";
 
@@ -15,15 +16,24 @@ export default function ArticleList({ title, allPostsData }) {
 					{title} {allPostsData.length}
 				</h2>
 				<ul className={utilStyles.list}>
-					{allPostsData.map(({ id, date, title }) => (
+					{allPostsData.map(({ id, date, title, topic }) => (
 						<li className={utilStyles.listItem} key={id}>
 							<Link href={`/leetcode/${id}`}>
 								<a>{title}</a>
 							</Link>
-							<br />
-							<small className={utilStyles.lightText}>
-								<Date dateString={date} />
-							</small>
+							<div
+								className={`${utilStyles.smallText} ${utilStyles.lightText}`}
+							>
+								<small>
+									<Date dateString={date} />
+								</small>
+								<small>
+									<Tag
+										text={topic}
+										url={`/topic/#${topic}`}
+									/>
+								</small>
+							</div>
 						</li>
 					))}
 				</ul>

@@ -1,21 +1,20 @@
 import ArticleList from "~/components/articleList";
 import { categories } from "~/components/layout";
-import { getPostList as getAllProblems } from "~/lib/leetcode";
-import { getPostList as getAllPosts } from "~/lib/post";
+import { getPostList } from "~/lib/leetcode";
 import { sortByDateDesc } from "~/lib/sort";
 
-export default function Home({ allPostsData }) {
+export default function Unsolved({ allPostsData }) {
 	return (
 		<ArticleList
-			title={categories?.index?.[0] || "Articles"}
+			title={categories?.unsolved?.[0] || "Articles"}
 			allPostsData={allPostsData}
 		/>
 	);
 }
 
 export async function getStaticProps() {
-	const allPostsData = getAllProblems()
-		.concat(getAllPosts())
+	const allPostsData = getPostList()
+		.filter((post) => post.solved == false)
 		.sort(sortByDateDesc);
 
 	return {

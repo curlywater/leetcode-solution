@@ -11,6 +11,7 @@ export const categories = {
 	index: ["Recent", "/"],
 	topic: ["Topic", "/topic"],
 	leetcode: ["Problems", "/leetcode"],
+	unsolved: ["Unsolved", "/unsolved"],
 };
 
 export default function Layout({ children, index }) {

@@ -44,5 +44,14 @@
 }
 
 .lightText {
-	color: #999;
+	color: rgba(0, 0, 0, 0.25);
+}
+
+.smallText {
+	font-size: 0.8rem;
+}
+
+.flexMiddle {
+	display: flex;
+	align-items: center;
 }

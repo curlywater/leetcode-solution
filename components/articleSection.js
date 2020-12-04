@@ -14,7 +14,7 @@ export default function ArticleSection({ sectionData, isAbleFold = false }) {
 					setFold((status) => !status);
 				}}
 			>
-				<h3 className={styles.headerText}>
+				<h3 className={styles.headerText} id={`${title}`}>
 					{title} {postData.length}
 				</h3>
 				{isAbleFold && <div className={styles.foldTrigger}>▼</div>}
